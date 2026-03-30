@@ -138,6 +138,17 @@ li {
   background: #ddd;
 }
 
+/* Search  */
+small {
+  display: block;
+  /* margin-top: 5px; */
+  /* font-weight: bold; */
+}
+
+small::before {
+  content: "🏷 ";
+}
+
 /* Animation */
 /* @keyframes fadeIn {
   from {

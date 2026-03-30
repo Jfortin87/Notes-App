@@ -13,6 +13,13 @@
         <h1 class="page-title">📝 Notes App</h1>
 
         <div class="container">
+            <input id="searchInput" placeholder="Search notes..." />
+            <select id="tagInput">
+                <option value="general">General</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+            </select>
+
             <textarea id="noteInput" placeholder="Write a note..."></textarea>
             <button onclick="addNote()">Add Note</button>
             <button onclick="clearNotes()">Delete All</button>
